@@ -24,7 +24,7 @@ const sources = {
 const okaido="大街道駅 松山市 愛媛県 日本";
 const days=[
   {
-    "title": "도착, 그리고 첫 도미밥",
+    "title": "도착, 저녁 먹고 시내 산책",
     "kicker": "HELLO, MATSUYAMA",
     "description": "무료 셔틀로 시내에 들어와, 맛있는 것부터.",
     "meta": [
@@ -74,27 +74,12 @@ const days=[
       },
       {
         "time": "17:30",
-        "type": "저녁",
-        "name": "아키요시 본점에서 도미밥",
-        "jp": "松山 鯛めし 秋嘉 本店",
-        "place": "松山 鯛めし 秋嘉 本店 松山市大街道3丁目5-1",
-        "origin": "大街道駅 松山市 愛媛県 日本",
-        "mode": "walking",
-        "copy": "보내준 맛집으로 첫 저녁. 따뜻한 도미 솥밥인 마쓰야마식과 생선회·달걀 소스의 우와지마식 중 취향대로 골라요.",
-        "travel": "오카이도 정류장 → 로프웨이 거리",
-        "route": "도보 약 3–5분 · 실제 숙소 출발은 숙소 확정 후 조정",
-        "tip": "공식 안내는 예약 불가·방문 순서대로 입장. 도미가 소진되면 조기 종료할 수 있어 저녁 문 여는 17:30을 목표로 해요. 체크인이 늦으면 18:00 전후로 조정해요.",
-        "source": "akiyoshi",
-        "mapUrl": "https://maps.app.goo.gl/uLbCv61KZek6UWKE7",
-        "hoursKey": "akiyoshi",
-        "stories": [
-          {
-            "title": "같은 도미밥, 서로 다른 두 가지",
-            "body": "마쓰야마식은 도미와 쌀을 함께 지은 솥밥, 우와지마식은 도미회에 소스와 생달걀을 곁들인 밥이에요. 아키요시 본점은 두 종류를 모두 내니 둘이 다른 메뉴를 골라 비교해도 좋아요.",
-            "url": "https://w-harmony.jp/shop/akiyoshi/",
-            "label": "아키요시 공식 · 도미밥 소개"
-          }
-        ]
+        "type": "식사 시간",
+        "name": "저녁",
+        "jp": "오카이도 주변",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
         "time": "19:15",
@@ -102,11 +87,11 @@ const days=[
         "name": "오카이도 & 돈키호테",
         "jp": "大街道商店街 · ドン・キホーテ松山大街道店",
         "place": "ドン・キホーテ松山大街道店 松山市三番町2丁目3-7",
-        "origin": "松山 鯛めし 秋嘉 本店 松山市大街道3丁目5-1",
+        "origin": "大街道駅 松山市 愛媛県 日本",
         "mode": "walking",
         "copy": "상점가를 천천히 걸으면서 간식과 필요한 물건만 먼저 구경해요. 본격적인 쇼핑은 토요일에 해도 충분해요.",
-        "travel": "로프웨이 거리 → 오카이도 남쪽",
-        "route": "도보 약 10–15분 · 구경 시간 별도",
+        "travel": "오카이도 주변 → 상점가 남쪽",
+        "route": "구간 길찾기는 오카이도역 기준 · 식사 후에는 현재 위치에서",
         "tip": "돈키호테 공식 영업 09:00–다음 날 02:00. 상점가 개별 점포는 마감 시간이 달라요. 오늘은 20:30쯤 숙소로 돌아가 휴식해요.",
         "source": "donki",
         "stories": [
@@ -131,7 +116,7 @@ const days=[
       "미쓰하마 → 바이신지",
       "바이신지 필수 방문"
     ],
-    "note": "미캰파크는 금요일 16:30 마감, 카페 주문은 16:00까지. 카페부터 들르고 해변으로 가요.",
+    "note": "오후는 바이신지 바다와 여유로운 카페 시간. 카페 영업시간은 맛집 탭에서 확인해요.",
     "stops": [
       {
         "time": "10:30",
@@ -149,26 +134,12 @@ const days=[
       },
       {
         "time": "11:30",
-        "type": "점심 · 로컬 음식",
-        "name": "히노데 미쓰하마야키",
-        "jp": "お好み焼 日の出",
-        "place": "お好み焼 日の出 松山市三杉町11-8",
-        "origin": "三津駅 松山市 愛媛県 日本",
-        "mode": "walking",
-        "copy": "면이 들어간 미쓰하마식 오코노미야키로 든든하게. 작은 가게라 이른 점심으로 잡았어요.",
-        "travel": "미쓰역 → 히노데",
-        "route": "도보 약 2–5분",
-        "tip": "지역 안내 기준 11:00–18:00, 수요일 휴무(임시휴무 가능). 좌석이 적어 대기가 길면 근처 お好み焼 こすもす(三杉町10-15, 11–17시, 화·수 휴무)를 대안으로 확인하세요.",
-        "source": "hinode",
-        "stories": [
-          {
-            "title": "반달 모양 속에 담긴 항구의 맛",
-            "body": "미쓰하마야키는 얇은 반죽 위에 소바나 우동, 채소와 고기를 올리고 반으로 접는 향토 음식이에요. 생선가루와 지쿠와를 넣는 것도 특징입니다.",
-            "url": "https://matsuyama-sightseeing.com/topics/trip_healing/",
-            "label": "마쓰야마시 공식 · 미쓰하마 음식 문화"
-          }
-        ],
-        "hoursKey": "hinode"
+        "type": "식사 시간",
+        "name": "점심",
+        "jp": "미쓰하마 주변",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
         "time": "12:30",
@@ -176,11 +147,11 @@ const days=[
         "name": "미쓰하마 골목 한 바퀴",
         "jp": "三津浜 · 三津浜商店街",
         "place": "三津浜商店街 松山市住吉 愛媛県",
-        "origin": "お好み焼 日の出 松山市三杉町11-8",
+        "origin": "三津駅 松山市 愛媛県 日本",
         "mode": "walking",
         "copy": "오래된 가게와 항구 풍경을 천천히 구경해요. 길게 걷기 싫으면 일찍 역으로 돌아가 바이신지 체류를 늘려도 좋아요.",
-        "travel": "점심 가게 → 항구 마을",
-        "route": "도보 약 10–15분 · 산책 약 40분 선택",
+        "travel": "미쓰역 주변 → 항구 마을",
+        "route": "도보 약 10–15분 · 식사 후에는 현재 위치에서",
         "tip": "가게마다 영업일이 달라 외관과 골목 산책 중심으로 잡았어요. 바이신지로 갈 때는 미쓰역으로 돌아오세요.",
         "source": "mitsuhama",
         "stories": [
@@ -222,27 +193,12 @@ const days=[
       },
       {
         "time": "14:00",
-        "type": "카페 · 귤 디저트",
-        "name": "미캰파크에서 귤 한 잔",
-        "jp": "みきゃんパーク梅津寺",
-        "place": "みきゃんパーク梅津寺 松山市梅津寺町1374-1",
-        "origin": "梅津寺駅 松山市 愛媛県 日本",
-        "mode": "walking",
-        "must": true,
-        "copy": "2층 카페에서 귤 주스와 디저트, 1층에서 귀여운 기념품. 바다 구경 전에 한 시간쯤 편하게 쉬어요.",
-        "travel": "바이신지역 → 미캰파크",
-        "route": "도보 약 1–3분",
-        "tip": "2026년 10월부터 평일 10:00–16:30, 카페 마지막 주문 16:00. 토·일·공휴일 10:00–17:00, 마지막 주문 16:30. 월요일 휴무.",
-        "source": "mican",
-        "stories": [
-          {
-            "title": "바다 앞 역이 드라마의 마지막 장면",
-            "body": "바이신지역은 1991년 드라마 ‘도쿄 러브스토리’ 최종회 촬영지로 알려져 있어요. 플랫폼에는 촬영지를 알리는 안내판도 있습니다. 드라마를 몰라도 바다와 철도가 만나는 풍경만으로 충분히 근사해요.",
-            "url": "https://matsuyama-sightseeing.com/spot/58-2/",
-            "label": "마쓰야마시 공식 · 바이신지역"
-          }
-        ],
-        "hoursKey": "mican"
+        "type": "쉬는 시간",
+        "name": "카페",
+        "jp": "바이신지 주변 · 선택",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
         "time": "15:15",
@@ -250,12 +206,12 @@ const days=[
         "name": "바이신지 해변, 우리 둘",
         "jp": "梅津寺海岸",
         "place": "梅津寺海岸 松山市 愛媛県 日本",
-        "origin": "みきゃんパーク梅津寺 松山市梅津寺町1374-1",
+        "origin": "梅津寺駅 松山市 愛媛県 日本",
         "mode": "walking",
         "must": true,
         "copy": "이번 여행의 가장 중요한 시간. 다음 장소를 서두르지 않고 바다를 보며 걸어요. 16:30쯤 돌아갈 준비를 하면 됩니다.",
-        "travel": "미캰파크 → 해변",
-        "route": "도보 약 3–8분 · 해안에서 60–75분",
+        "travel": "바이신지역 주변 → 해변",
+        "route": "구간 길찾기는 역 기준 · 카페에서는 현재 위치에서",
         "tip": "역 승강장은 철도 이용구역이에요. 사진은 허용된 구역에서 촬영하고 바람이 강하면 카페·실내로 이동하세요. 일몰 관람을 고정한 일정은 아닙니다.",
         "source": "mitsuhama",
         "stories": [
@@ -283,22 +239,15 @@ const days=[
       },
       {
         "time": "18:30",
-        "type": "저녁 · 야키토리 & 나마비루",
-        "name": "사키가케에서 꼬치와 생맥주",
-        "jp": "大街道 焼き鳥 魁 SAKIGAKE",
-        "place": "大街道 焼き鳥 魁 SAKIGAKE 松山市大街道1丁目5-7",
-        "origin": "大街道駅 松山市 愛媛県 日本",
-        "mode": "walking",
-        "copy": "바다에서 돌아와 숙소에서 쉬고, 야키토리와 시원한 나마비루로 건배해요. 공식 메뉴의 꼬치 5종 모둠과 기린 이치방시보리 생맥주를 후보로 골랐어요.",
-        "travel": "오카이도 정류장 → 오카이도 1초메",
-        "route": "도보 약 8–12분 · 숙소와의 거리는 아직 미확정",
-        "tip": "오카이도점입니다. 마쓰치카 지하상가 지점과 구분하세요. 공식 메뉴 기준 생맥주 640엔, 꼬치 5종 820엔(확인일 기준, 변경 가능). 좌석·예약 여부는 방문 전 확인해요.",
-        "source": "sakigakeMenu",
-        "hoursKey": "sakigake"
+        "type": "식사 시간",
+        "name": "저녁",
+        "jp": "시내 · 숙소 주변",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       }
     ],
-    "end": "20:00 전후 숙소로. 숙소 위치가 정해지면 도보 동선을 다시 맞춰요.",
-    "returnFrom": "大街道 焼き鳥 魁 SAKIGAKE 松山市大街道1丁目5-7"
+    "end": "20:00 전후 숙소로. 숙소 위치가 정해지면 도보 동선을 다시 맞춰요."
   },
   {
     "title": "쇼핑하고, 도고에서 쉬고",
@@ -335,32 +284,25 @@ const days=[
       },
       {
         "time": "12:15",
-        "type": "점심 · 카페",
-        "name": "애프터눈 티 티룸",
-        "jp": "アフタヌーンティー・ティールーム いよてつ髙島屋",
-        "place": "アフタヌーンティー ティールーム いよてつ髙島屋 松山市湊町5丁目1-1",
-        "origin": "いよてつ髙島屋 松山市湊町5丁目1-1",
-        "mode": "walking",
-        "copy": "백화점 4층에서 파스타 등 가벼운 점심. 멀리 이동하지 않고 쇼핑 중간에 쉬어가요.",
-        "travel": "다카시마야 내부 4층",
-        "route": "층간 이동 약 5분 · 대기시간 별도",
-        "tip": "공식 안내 10:00–19:00, 예약 불가. 주말에 대기가 길면 같은 백화점 식당가에서 식사하고 13:30쯤 이동하세요.",
-        "source": "tea",
-        "hoursKey": "tea"
+        "type": "식사 시간",
+        "name": "점심",
+        "jp": "마쓰야마시역 주변",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
-        "time": "14:15",
-        "type": "도고 · 카페",
-        "name": "시라사기 커피",
-        "jp": "道後 白鷺珈琲",
-        "place": "道後 白鷺珈琲 松山市道後湯之町12-1",
-        "origin": "アフタヌーンティー ティールーム いよてつ髙島屋 松山市湊町5丁目1-1",
+        "time": "14:00",
+        "type": "이동 · 도고 도착",
+        "name": "전차 타고 도고로",
+        "jp": "松山市駅前 → 道後温泉",
+        "place": "道後温泉駅 松山市 愛媛県 日本",
+        "origin": "松山市駅 伊予鉄道 愛媛県 日本",
         "mode": "transit",
-        "copy": "13:30쯤 시역에서 도고온천행 전차를 타요. 도고역 앞 카페에서 커피 한 잔, 역사를 바라보며 쉬어가요.",
-        "travel": "松山市駅前 → 道後温泉 → 카페 2층",
-        "route": "전차·도보·대기 포함 약 35–45분",
-        "tip": "토요일 공식 영업 09:00–18:00, 음료·디저트 마지막 주문 17:30. 로손 건물 2층에 있어요.",
-        "source": "coffee",
+        "copy": "13:15쯤 마쓰야마시역 앞에서 도고온천행 전차를 타요. 도착 후에는 카페와 온천 거리를 느긋하게 즐겨요.",
+        "travel": "마쓰야마시역 앞 → 도고온천역",
+        "route": "도보·대기 포함 약 35–45분 · 식당에서는 현재 위치에서",
+        "tip": "점심 식당은 정해져 있지 않아 구간 길찾기는 마쓰야마시역 기준이에요. 실제 식당에서는 현재 위치 버튼을 이용하세요.",
         "stories": [
           {
             "title": "도고에서 백로를 찾아보세요",
@@ -368,8 +310,16 @@ const days=[
             "url": "https://dogo.jp/about",
             "label": "도고온천 공식 · 역사와 전설"
           }
-        ],
-        "hoursKey": "coffee"
+        ]
+      },
+      {
+        "time": "14:15",
+        "type": "쉬는 시간",
+        "name": "카페",
+        "jp": "도고 주변 · 선택",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
         "time": "15:30",
@@ -377,10 +327,10 @@ const days=[
         "name": "도고 상점가 구경",
         "jp": "道後ハイカラ通り",
         "place": "道後ハイカラ通り 松山市 愛媛県",
-        "origin": "道後 白鷺珈琲 松山市道後湯之町12-1",
+        "origin": "道後温泉駅 松山市 愛媛県 日本",
         "mode": "walking",
         "copy": "귤 과자와 작은 기념품을 구경하며 본관 쪽으로 걸어요. 중간에 마음에 드는 가게가 있으면 편하게 들르기.",
-        "travel": "도고역 앞 → 하이카라 거리",
+        "travel": "도고온천역 주변 → 하이카라 거리",
         "route": "입구까지 도보 약 2–3분 · 구경 약 45분",
         "tip": "점포별 영업시간은 달라요. 쇼핑 후 온천으로 이어지는 짧은 동선입니다.",
         "source": "dogo",
@@ -418,19 +368,12 @@ const days=[
       },
       {
         "time": "18:30",
-        "type": "저녁 · 직접 고른 맛집",
-        "name": "철판 이자카야 쇼우",
-        "jp": "鉄板居酒屋 昇",
-        "place": "鉄板居酒屋 昇 松山市三番町2丁目6-3",
-        "origin": "道後温泉別館 飛鳥乃湯泉 松山市道後湯之町19-22",
-        "mode": "transit",
-        "copy": "17:30쯤 온천을 나와 도고온천역에서 오카이도로 돌아와요. 보내준 쇼우에서 철판 요리로 마지막 저녁. 오코노미야키나 철판 요리를 나눠 먹기 좋아요.",
-        "travel": "아스카노유 → 도고온천역 → 오카이도 → 쇼우",
-        "route": "도보·전차·대기 포함 약 35–50분",
-        "tip": "산반초 2-6-3 에프로제 빌딩 1층. Google Maps의 토요일 영업은 18:00–다음 날 04:00. 가게 메뉴에 프리미엄 몰츠 생맥주 583엔이 있어요(변경 가능). 예약은 아직 하지 않았습니다.",
-        "source": "shou",
-        "mapUrl": "https://maps.app.goo.gl/GoDMe99R43EpBxkXA",
-        "hoursKey": "shou"
+        "type": "식사 시간",
+        "name": "저녁",
+        "jp": "도고 또는 시내 · 자유 선택",
+        "food": true,
+        "copy": "그때 가까운 곳을 맛집 탭에서 골라요. 위치를 허용하면 길찾기를 누르기 전에 가까운 순서로 볼 수 있어요.",
+        "tip": "식당과 메뉴는 미리 고정하지 않았어요. 영업시간과 현장 대기를 보고 편하게 선택해요."
       },
       {
         "time": "20:00",
@@ -438,11 +381,11 @@ const days=[
         "name": "돈키호테에서 마지막 쇼핑",
         "jp": "大街道 · ドン・キホーテ松山大街道店",
         "place": "ドン・キホーテ松山大街道店 松山市三番町2丁目3-7",
-        "origin": "鉄板居酒屋 昇 松山市三番町2丁目6-3",
-        "mode": "walking",
-        "copy": "쇼우에서 가까운 돈키호테에서 필요한 선물만 마저 사고 숙소로 돌아가요. 21:00 전후에는 짐과 여권을 챙겨두세요.",
-        "travel": "쇼우 → 돈키호테 오카이도점",
-        "route": "도보 약 2–5분",
+        "origin": "道後温泉駅 松山市 愛媛県 日本",
+        "mode": "transit",
+        "copy": "저녁을 먹고 필요한 선물을 마저 사요. 시내에서 식사했다면 현재 위치에서 버튼으로 바로 찾아가세요. 21:00 전후 숙소로 돌아가 짐과 여권을 챙겨요.",
+        "travel": "도고온천역 → 오카이도 · 시내 복귀 기준",
+        "route": "약 25–40분 · 식사 장소에서는 현재 위치에서",
         "tip": "Google Maps와 공식 영업은 09:00–다음 날 02:00. 내일 무료 셔틀은 07:05 출발이니 쇼핑은 짧게 마무리해요.",
         "source": "donki",
         "hoursKey": "donki"
@@ -537,6 +480,7 @@ function storiesHtml(s){
 }
 function stopHtml(s){
   let actions='';
+  if(s.food)actions=routeAnchor('#food','가까운 맛집 고르기',locate,s.name+' 맛집 탭 열기').replace('target="_blank"','');
   if(s.place){
     if(s.shuttle){actions+=routeAnchor(placeUrl(s.place),'도착 지역 지도',arrow,s.name+' 도착 지역 Google Maps');}
     else {
@@ -556,7 +500,8 @@ function renderDay(index){
   panel.innerHTML=`<header class="day-header"><span class="day-kicker">${d.kicker}</span><h2>${d.title}</h2><p>${d.description}</p><div class="day-meta">${d.meta.map(m=>`<span>${m}</span>`).join('')}</div></header><p class="day-note">${d.note}</p><ol class="timeline">${d.stops.map(stopHtml).join('')}</ol><div class="day-end">${d.end}${d.returnFrom?`<a href="${escapeHtml(directionUrl(okaido,d.returnFrom,'walking'))}" target="_blank" rel="noopener">오카이도 거점으로 돌아가기 ↗</a><small>호텔 미정 · 실제 숙소까지는 별도 이동</small>`:''}</div><p class="fine-print">시간은 예약이 아닌 추천 일정입니다. 이동시간은 추정치, 길찾기는 Google 지도에서 열려요. 여행일 경로를 보려면 지도에서 출발 날짜·시각을 바꿔주세요. 현재 위치 제공 여부는 지도 앱에서 선택할 수 있어요.</p>`;
 }
 function showView(view){
-  for(const key of ['schedule','transport','info']){
+  if(view==='food')openFoodView();
+  for(const key of ['schedule','food','transport','info']){
     document.getElementById(key+'-view').hidden=key!==view;
     const button=document.querySelector(`[data-view="${key}"]`);
     if(key===view)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');
@@ -564,7 +509,7 @@ function showView(view){
 }
 function syncHash(){
   const hash=location.hash.slice(1);
-  if(hash==='transport'||hash==='info'){showView(hash);return;}
+  if(hash==='food'||hash==='transport'||hash==='info'){showView(hash);return;}
   const match=/^day-([1-4])$/.exec(hash);
   showView('schedule');renderDay(match?Number(match[1])-1:0);
 }
@@ -584,4 +529,5 @@ document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener
   const view=button.dataset.view;showView(view);history.replaceState(null,'','#'+(view==='schedule'?'day-'+(selectedDay+1):view));
 }));
 window.addEventListener('hashchange',syncHash);
+renderDay(0);
 syncHash();
