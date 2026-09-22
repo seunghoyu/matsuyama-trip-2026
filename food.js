@@ -1,5 +1,4 @@
 'use strict';
-// Actual Google Maps place-pin coordinates, checked 2026-09-22.
 const restaurants=[
   {
     "id": "shou",
@@ -16,7 +15,10 @@ const restaurants=[
     "picked": true,
     "copy": "철판 요리와 오코노미야키를 나눠 먹고 싶은 날. 가게 등록 메뉴에 프리미엄 몰츠 생맥주가 있어요.",
     "tip": "구글 지도 표기에서 금·토 저녁 영업을 확인했어요. 방문일 휴무·좌석은 다시 확인해요.",
-    "source": "shou"
+    "source": "shou",
+    "storyKeys": [
+      "okaido"
+    ]
   },
   {
     "id": "akiyoshi",
@@ -34,13 +36,8 @@ const restaurants=[
     "copy": "따뜻한 도미 솥밥인 마쓰야마식과 회·달걀 소스의 우와지마식 중 선택할 수 있어요.",
     "tip": "본점은 예약 없이 방문 순서대로 입장. 도미가 소진되면 일찍 마감할 수 있어요.",
     "source": "akiyoshi",
-    "stories": [
-      {
-        "title": "같은 도미밥, 서로 다른 두 가지",
-        "body": "마쓰야마식은 도미와 쌀을 함께 지은 솥밥, 우와지마식은 도미회에 소스와 생달걀을 곁들인 밥이에요. 아키요시 본점은 두 종류를 모두 내니 둘이 다른 메뉴를 골라 비교해도 좋아요.",
-        "url": "https://w-harmony.jp/shop/akiyoshi/",
-        "label": "아키요시 공식 · 도미밥 소개"
-      }
+    "storyKeys": [
+      "taimeshi"
     ]
   },
   {
@@ -57,7 +54,10 @@ const restaurants=[
     "hoursKey": "kuraki",
     "picked": true,
     "copy": "보내준 라멘·츠케멘 후보. 오카이도 상점가에서 점심이나 저녁으로 고르기 좋은 위치예요.",
-    "tip": "점심과 저녁 사이 영업 중단 시간이 있어요. 지도 시간부터 확인하고 출발하세요."
+    "tip": "점심과 저녁 사이 영업 중단 시간이 있어요. 지도 시간부터 확인하고 출발하세요.",
+    "storyKeys": [
+      "okaido"
+    ]
   },
   {
     "id": "shobu",
@@ -73,7 +73,10 @@ const restaurants=[
     "hoursKey": "shobu",
     "picked": true,
     "copy": "보내준 스시집. 마쓰야마시역과 다카시마야 쪽에서 식사할 때 확인해보세요.",
-    "tip": "지도 기준 점심 13:30 마감, 저녁 17:30 재개. 월·화 휴무 표기라 요일을 확인해요."
+    "tip": "지도 기준 점심 13:30 마감, 저녁 17:30 재개. 월·화 휴무 표기라 요일을 확인해요.",
+    "storyKeys": [
+      "shieki"
+    ]
   },
   {
     "id": "yukemuri",
@@ -89,7 +92,11 @@ const restaurants=[
     "hoursKey": "yukemuri",
     "picked": true,
     "copy": "도고에서 쉬어갈 카페로 보내준 곳. 산책이나 온천 전후에 가까운 카페를 비교해서 골라요.",
-    "tip": "지도에는 19:40까지로 표시됩니다. 메뉴별 주문 마감은 현장에서 확인해요."
+    "tip": "지도에는 19:40까지로 표시됩니다. 메뉴별 주문 마감은 현장에서 확인해요.",
+    "storyKeys": [
+      "dogo",
+      "asuka"
+    ]
   },
   {
     "id": "tea",
@@ -104,7 +111,10 @@ const restaurants=[
     "hoursKey": "tea",
     "copy": "다카시마야 쇼핑 중 커피나 가벼운 식사로 쉬어갈 곳입니다.",
     "tip": "공식 안내상 예약 불가. 주말 대기는 따로 고려하세요.",
-    "source": "tea"
+    "source": "tea",
+    "storyKeys": [
+      "shieki"
+    ]
   },
   {
     "id": "mican",
@@ -120,13 +130,8 @@ const restaurants=[
     "copy": "바다를 보며 귤 주스와 디저트로 쉬어갈 카페. 바이신지역 근처에 있어요.",
     "tip": "10월 공식 영업 변경 공지를 우선 확인하세요. 카페 주문은 평일 16:00, 주말 16:30까지입니다.",
     "source": "mican",
-    "stories": [
-      {
-        "title": "바다 앞 역이 드라마의 마지막 장면",
-        "body": "바이신지역은 1991년 드라마 ‘도쿄 러브스토리’ 최종회 촬영지로 알려져 있어요. 플랫폼에는 촬영지를 알리는 안내판도 있습니다. 드라마를 몰라도 바다와 철도가 만나는 풍경만으로 충분히 근사해요.",
-        "url": "https://matsuyama-sightseeing.com/spot/58-2/",
-        "label": "마쓰야마시 공식 · 바이신지역"
-      }
+    "storyKeys": [
+      "baishinji"
     ]
   },
   {
@@ -143,13 +148,9 @@ const restaurants=[
     "copy": "도고역 앞, 로손 건물 2층 카페. 온천 거리에서 쉬어가고 싶을 때 확인해요.",
     "tip": "공식 음료·디저트 마지막 주문은 17:30입니다.",
     "source": "coffee",
-    "stories": [
-      {
-        "title": "도고에서 백로를 찾아보세요",
-        "body": "도고에는 다친 백로가 온천물에 다리를 담갔다가 나았다는 발견 전설이 전해져요. 이를 기념한 사기이시(백로 돌)는 도고온천역 앞 호조엔에 보존되어 있습니다.",
-        "url": "https://dogo.jp/about",
-        "label": "도고온천 공식 · 역사와 전설"
-      }
+    "storyKeys": [
+      "dogo",
+      "dogoStation"
     ]
   },
   {
@@ -165,7 +166,10 @@ const restaurants=[
     "hoursKey": "sakigake",
     "copy": "야키토리와 나마비루가 생각날 때. 공식 메뉴 기준 꼬치 5종 820엔, 기린 이치방시보리 생맥주 640엔입니다(변경 가능).",
     "tip": "마쓰치카 지하상가점과 다른 오카이도점입니다.",
-    "source": "sakigakeMenu"
+    "source": "sakigakeMenu",
+    "storyKeys": [
+      "okaido"
+    ]
   },
   {
     "id": "hinode",
@@ -181,13 +185,9 @@ const restaurants=[
     "copy": "면이 들어가는 미쓰하마식 오코노미야키. 작은 가게라 대기를 고려해요.",
     "tip": "미쓰역 근처에서 점심을 고를 때 확인하세요.",
     "source": "hinode",
-    "stories": [
-      {
-        "title": "반달 모양 속에 담긴 항구의 맛",
-        "body": "미쓰하마야키는 얇은 반죽 위에 소바나 우동, 채소와 고기를 올리고 반으로 접는 향토 음식이에요. 생선가루와 지쿠와를 넣는 것도 특징입니다.",
-        "url": "https://matsuyama-sightseeing.com/topics/trip_healing/",
-        "label": "마쓰야마시 공식 · 미쓰하마 음식 문화"
-      }
+    "storyKeys": [
+      "mitsuyaki",
+      "mitsuhama"
     ]
   }
 ];

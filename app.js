@@ -62,7 +62,10 @@ const days=[
         "route": "무료 셔틀 · 약 30분 · 제주항공 인천 직항 이용객",
         "tip": "공식 10월 안내의 매일 오후편 기준. 무료 셔틀은 Google Maps 대중교통 검색에 표시되지 않을 수 있어요. 아래 지도는 도착 지역 확인용이며 시간표·탑승은 현장 안내를 따릅니다. 놓치면 유료 리무진 16:10→16:39편 등을 확인하세요. 자세한 탑승 순서는 첫 일정 카드와 교통·무료 혜택 메뉴에 있어요.",
         "source": "benefits",
-        "quick": "편도 0엔 · 귀국 시 공항행도 무료"
+        "quick": "편도 0엔 · 귀국 시 공항행도 무료",
+        "storyKeys": [
+          "matsuyama"
+        ]
       },
       {
         "time": "17:00",
@@ -94,15 +97,10 @@ const days=[
         "route": "구간 길찾기는 오카이도역 기준 · 식사 후에는 현재 위치에서",
         "tip": "돈키호테 공식 영업 09:00–다음 날 02:00. 상점가 개별 점포는 마감 시간이 달라요. 오늘은 20:30쯤 숙소로 돌아가 휴식해요.",
         "source": "donki",
-        "stories": [
-          {
-            "title": "비 오는 날에도 걷기 좋은 483m",
-            "body": "오카이도는 전장 483m의 지붕 있는 보행자 전용 상점가예요. 남쪽으로 긴텐가이, 북쪽으로 로프웨이 거리가 이어져 쇼핑과 먹거리를 한 동선으로 즐기기 좋습니다.",
-            "url": "https://matsuyama-sightseeing.com/spot/8-2/",
-            "label": "마쓰야마시 공식 · 오카이도"
-          }
-        ],
-        "hoursKey": "donki"
+        "hoursKey": "donki",
+        "storyKeys": [
+          "okaido"
+        ]
       }
     ],
     "end": "20:30쯤 숙소로. 내일은 바다 보러 가는 날.",
@@ -154,19 +152,8 @@ const days=[
         "route": "도보 약 10–15분 · 식사 후에는 현재 위치에서",
         "tip": "가게마다 영업일이 달라 외관과 골목 산책 중심으로 잡았어요. 바이신지로 갈 때는 미쓰역으로 돌아오세요.",
         "source": "mitsuhama",
-        "stories": [
-          {
-            "title": "옛 바다의 관문, 미쓰하마",
-            "body": "미쓰하마는 한때 마쓰야마의 해상 관문이었어요. 메이지·다이쇼 시대의 건물과 목조 가옥이 남아 있어 골목의 창문·문살을 살펴보는 재미가 있습니다.",
-            "url": "https://matsuyama-sightseeing.com/course/course06/",
-            "label": "마쓰야마시 공식 · 항구 마을 산책"
-          },
-          {
-            "title": "배를 타고 건너는 ‘시내 도로’",
-            "body": "미쓰와 미나토야마 사이 약 80m를 잇는 무료 나룻배는 지금도 시도 다카하마 2호선의 일부예요. 기원은 무로마치 시대로 거슬러 올라갑니다. 오늘은 골목 산책 중심이고, 배는 시간이 남을 때만 선택해요.",
-            "url": "https://www.city.matsuyama.ehime.jp/shisetsu/kuko/mituwatasi.html",
-            "label": "마쓰야마시 공식 · 미쓰의 나룻배"
-          }
+        "storyKeys": [
+          "mitsuhama"
         ]
       },
       {
@@ -182,13 +169,8 @@ const days=[
         "route": "도보·대기 포함 약 20–30분 / 전철 승차 약 5분",
         "tip": "三津 → 港山 → 梅津寺 순서예요. 반대 방향인 松山市 방면으로 타지 않도록 확인하세요.",
         "source": "mitsuhama",
-        "stories": [
-          {
-            "title": "바다 앞 역이 드라마의 마지막 장면",
-            "body": "바이신지역은 1991년 드라마 ‘도쿄 러브스토리’ 최종회 촬영지로 알려져 있어요. 플랫폼에는 촬영지를 알리는 안내판도 있습니다. 드라마를 몰라도 바다와 철도가 만나는 풍경만으로 충분히 근사해요.",
-            "url": "https://matsuyama-sightseeing.com/spot/58-2/",
-            "label": "마쓰야마시 공식 · 바이신지역"
-          }
+        "storyKeys": [
+          "baishinji"
         ]
       },
       {
@@ -214,13 +196,8 @@ const days=[
         "route": "구간 길찾기는 역 기준 · 카페에서는 현재 위치에서",
         "tip": "역 승강장은 철도 이용구역이에요. 사진은 허용된 구역에서 촬영하고 바람이 강하면 카페·실내로 이동하세요. 일몰 관람을 고정한 일정은 아닙니다.",
         "source": "mitsuhama",
-        "stories": [
-          {
-            "title": "바다 앞 역이 드라마의 마지막 장면",
-            "body": "바이신지역은 1991년 드라마 ‘도쿄 러브스토리’ 최종회 촬영지로 알려져 있어요. 플랫폼에는 촬영지를 알리는 안내판도 있습니다. 드라마를 몰라도 바다와 철도가 만나는 풍경만으로 충분히 근사해요.",
-            "url": "https://matsuyama-sightseeing.com/spot/58-2/",
-            "label": "마쓰야마시 공식 · 바이신지역"
-          }
+        "storyKeys": [
+          "baishinji"
         ]
       },
       {
@@ -272,15 +249,10 @@ const days=[
         "route": "시내 전차·도보 약 20–30분 / 전 구간 도보 약 20–25분",
         "tip": "본점 공식 영업 10:00–19:00. 오후에 도고로 이동하므로 부피가 큰 쇼핑은 마지막 시내 시간으로 미뤄도 좋아요.",
         "source": "takashimaya",
-        "stories": [
-          {
-            "title": "시역에서 시작되는 쇼핑 산책",
-            "body": "마쓰야마시역의 마쓰치카타운에서 긴텐가이를 지나 오카이도로 이어지는 상점가 길은 합쳐서 1km가 넘어요. 기념품을 비교하면서 걷기 좋은 길입니다.",
-            "url": "https://matsuyama-sightseeing.com/topics/5-2/",
-            "label": "마쓰야마시 공식 · 성 아래 쇼핑 거리"
-          }
-        ],
-        "hoursKey": "takashimaya"
+        "hoursKey": "takashimaya",
+        "storyKeys": [
+          "shieki"
+        ]
       },
       {
         "time": "12:15",
@@ -303,13 +275,8 @@ const days=[
         "travel": "마쓰야마시역 앞 → 도고온천역",
         "route": "도보·대기 포함 약 35–45분 · 식당에서는 현재 위치에서",
         "tip": "점심 식당은 정해져 있지 않아 구간 길찾기는 마쓰야마시역 기준이에요. 실제 식당에서는 현재 위치 버튼을 이용하세요.",
-        "stories": [
-          {
-            "title": "도고에서 백로를 찾아보세요",
-            "body": "도고에는 다친 백로가 온천물에 다리를 담갔다가 나았다는 발견 전설이 전해져요. 이를 기념한 사기이시(백로 돌)는 도고온천역 앞 호조엔에 보존되어 있습니다.",
-            "url": "https://dogo.jp/about",
-            "label": "도고온천 공식 · 역사와 전설"
-          }
+        "storyKeys": [
+          "dogoStation"
         ]
       },
       {
@@ -334,13 +301,9 @@ const days=[
         "route": "입구까지 도보 약 2–3분 · 구경 약 45분",
         "tip": "점포별 영업시간은 달라요. 쇼핑 후 온천으로 이어지는 짧은 동선입니다.",
         "source": "dogo",
-        "stories": [
-          {
-            "title": "도고에서 백로를 찾아보세요",
-            "body": "도고에는 다친 백로가 온천물에 다리를 담갔다가 나았다는 발견 전설이 전해져요. 이를 기념한 사기이시(백로 돌)는 도고온천역 앞 호조엔에 보존되어 있습니다.",
-            "url": "https://dogo.jp/about",
-            "label": "도고온천 공식 · 역사와 전설"
-          }
+        "storyKeys": [
+          "dogo",
+          "honkan"
         ]
       },
       {
@@ -356,15 +319,10 @@ const days=[
         "route": "도보 약 3–5분 · 입욕 약 60분, 대기 별도",
         "tip": "여권과 교환권을 제시하세요. 무료 혜택 대상은 본관이 아닌 별관 아스카노유 1층입니다. 남녀 욕탕이 나뉘므로 만날 시각을 정해요. 본관을 원하면 기본 입욕은 별도 700엔/인입니다.",
         "source": "benefits",
-        "stories": [
-          {
-            "title": "목욕탕 안에서 만나는 에히메 공예",
-            "body": "아스카 시대 건축을 모티프로 한 별관이에요. 욕실의 도베야키 도판 벽화, 이요카스리 노렌 등 지역 공예를 찾아보세요. 공식 페이지에는 작품 설명과 소개 영상도 있습니다.",
-            "url": "https://dogo.jp/onsen/asuka",
-            "label": "도고온천 공식 · 건축·공예·소개 영상"
-          }
-        ],
-        "hoursKey": "asuka"
+        "hoursKey": "asuka",
+        "storyKeys": [
+          "asuka"
+        ]
       },
       {
         "time": "18:30",
@@ -475,8 +433,9 @@ function hoursHtml(s){
   return `<div class="hours-box"><strong>Google Maps 영업시간</strong><p>${escapeHtml(h.label)}</p><small>2026.09.22 직접 확인 · 저장된 정보</small>${h.note?`<p class="hours-note">${escapeHtml(h.note)}</p>`:''}<a href="${escapeHtml(h.url||s.mapUrl||placeUrl(s.place))}" target="_blank" rel="noopener">지도에서 최신 영업시간 확인 ↗</a></div>`;
 }
 function storiesHtml(s){
-  if(!s.stories)return '';
-  return `<details class="place-stories"><summary>지역·관광지 이야기 <span>공식 자료</span></summary>${s.stories.map(story=>`<div class="story"><h4>${escapeHtml(story.title)}</h4><p>${escapeHtml(story.body)}</p><a href="${escapeHtml(story.url)}" target="_blank" rel="noopener">${escapeHtml(story.label)} ↗</a></div>`).join('')}</details>`;
+  const stories=s.storyKeys?s.storyKeys.flatMap(key=>regionStories[key]||[]):s.stories;
+  if(!stories?.length)return '';
+  return `<details class="place-stories"><summary>지역·관광지 이야기 <span>역사·유래·전승 · ${stories.length}개 이야기</span></summary><p class="story-intro">이 동네가 생겨난 배경부터 오늘 유명해진 이유까지. 공식 자료를 바탕으로 풀어쓴 이야기예요.</p>${stories.map(story=>`<section class="story">${story.kind?`<p class="story-kind">${escapeHtml(story.kind)}</p>`:''}<h4>${escapeHtml(story.title)}</h4>${(story.paragraphs||[story.body]).map(p=>`<p>${escapeHtml(p)}</p>`).join('')}<a href="${escapeHtml(story.url)}" target="_blank" rel="noopener">${escapeHtml(story.label)} ↗</a></section>`).join('')}<p class="story-checked">자료 확인 · 2026.09.22</p></details>`;
 }
 function stopHtml(s){
   let actions='';
