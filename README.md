@@ -12,6 +12,7 @@ GitHub Pages: `main` 브랜치 `/ (root)`에서 배포. 외부 API 키나 서버
 
 ## 내용 수정
 - `app.js`: 날짜별 일정·경로·공식 출처
+- `place-info.js`: 직접 확인한 Google Maps 영업시간·확인일·공식 정보 차이
 - `index.html`: 항공편, 교통 가이드, 여행 메모
 - `styles.css`: 모바일·데스크톱 반응형 스타일
 - `ITINERARY.md`: 조사 근거와 계획
@@ -22,3 +23,5 @@ GitHub Pages: `main` 브랜치 `/ (root)`에서 배포. 외부 API 키나 서버
 
 ## 사진
 `baishinji.jpg`: DVMG, [Iyo Railway Baishinji station platform](https://commons.wikimedia.org/wiki/File:Iyo_Railway_Baishinji_station_platform_-_panoramio_(1).jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). CSS object-fit으로 화면에 맞춰 잘라 표시합니다. 원본 파일은 변경하지 않았습니다.
+
+Google Maps 영업시간은 2026-09-22 수동 확인 스냅샷입니다. Places API 키/청구 계정은 사용하지 않으며 자동 갱신하지 않습니다. 데이터 갱신 시 실제 지도 표기를 확인하고 확인일을 수정하세요. 여권 메뉴는 제주항공 예약 조회 외부 링크이며 사이트는 여권 정보를 수집하지 않습니다.
